@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Street Wear Shop</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#111;
+    color:white;
+}
+
+.header{
+    text-align:center;
+    padding:30px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+    padding:15px;
+}
+
+.card{
+    background:#1e1e1e;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+}
+
+.info{
+    padding:10px;
+}
+
+.price{
+    color:#00ff99;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.qrcode{
+    text-align:center;
+    padding:30px;
+}
+
+.qrcode img{
+    width:200px;
+    border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+Street Wear Shop
+</div>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+<div class="info">
+<h3>Nike Style Shoes</h3>
+<p>Size: 39-44</p>
+<p class="price">¥199</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+<div class="info">
+<h3>Oversize T-shirt</h3>
+<p>Size: M-XXL</p>
+<p class="price">¥89</p>
+</div>
+</div>
+
+</div>
+
+<div class="qrcode">
+<h2>Add WeChat</h2>
+
+<img src="你的二维码图片链接">
+
+<p>Contact me on WeChat</p>
+</div>
+
+</body>
+</html>
